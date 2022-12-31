@@ -186,6 +186,7 @@ public class newactivity extends AppCompatActivity {
         }
 
         share.putExtra(Intent.EXTRA_STREAM, uri);
+        share.putExtra(Intent.EXTRA_TEXT, weburl_str+"\nContact :"+phone_str);
         startActivity(Intent.createChooser(share, "Share Image"));
 
     }

@@ -19,7 +19,7 @@
             android:id="@+id/barcode"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/barcode">
+            android:src="@drawable/vv">
 
         </ImageView>
 
